@@ -1,31 +1,50 @@
+Kryteria oceny projektu aplikacji webowej
+=========================================
+
 1.  Budowa dokumentów HTML
-    a. prawidłowa struktura
-    b. zastosowanie znaczników semantycznych
-    c. stosowanie standardowych (polecanych) rozwiązań 
-    d. przejście przez walidator
+    a. prawidłowa struktura [*]
+    b. zastosowanie znaczników semantycznych [*]
+    c. stosowanie standardowych (polecanych) rozwiązań [1]
+    d. przejście przez walidator [*]
 
 2.  CSS
-    a. prawidłowa struktura
-    b. zastosowanie reguł (np. kaskadowość)
-    c. wykorzystanie języka LESS lub Sass
-    d. przejście przez walidator
+    a. prawidłowa struktura [*]
+    b. zastosowanie mechanizmów języka (np. kaskadowość) [*]
+    c. wykorzystanie języka LESS lub Sass [*]
+    d. przejście przez walidator [*]
     
 3.  JS
-    a. wykorzystanie języka JavaScript 
-    b. zastosowanie odpowiednich bibliotek
-    c. prawidłowe wykorzystanie obiektowości w JS
-    d. pozytywne przejście przez jshint
-    e. przygotowanie testów jednostkowych do kodu JS
+    a. wykorzystanie języka JavaScript [*]
+    b. zastosowanie odpowiednich bibliotek [1]
+    c. prawidłowe wykorzystanie obiektowości w JS [1]
+    d. pozytywne przejście przez jshint [*]
+    e. przygotowanie testów jednostkowych do kodu JS [1]
+    f. zastosowanie techniki AJAX [1]
+    g. zastosowanie routingu i obsługa historii [2]
 
 4.  HTML5 API
-    a. skorzystanie z wybranych API
+    a. skorzystanie z wybranych API HTML5 [2]
 
 5.  Automatyzacja
-    a. wykorzystanie narzędzia automatyzującego testowanie, walidowanie, budowanie (np. Grunt)
+    a. wykorzystanie narzędzia automatyzującego testowanie, walidowanie, budowanie (np. Grunt) [2]
 
 6.  Inne
-    a. przygotowanie wersji produkcyjnej (na serwer)
-    b. zoptymalizowanie rozmiaru dokumentów
-    c. zoptymalizowanie liczby żądań
-    d. zoptymalizowanie czasu ładowania dokumentu (zwłaszcza dla mobilnych)
-    e. opracowanie wersji mobilnej i desktopowej (RWD, wykrywanie przeglądarek, osobna wersja mobilna)
+    a. przygotowanie wersji produkcyjnej (na serwer) [1]
+    b. zoptymalizowanie rozmiaru dokumentów [1]
+    c. zoptymalizowanie liczby żądań [1]
+    d. zoptymalizowanie czasu ładowania dokumentu (zwłaszcza dla mobilnych) [1]
+    e. opracowanie wersji mobilnej i desktopowej (RWD, wykrywanie przeglądarek, osobna wersja mobilna) [2]
+
+
+Wyjaśnienie opisu kryteriów (na przykładach):
+=============================================
+[*] - punkt obowiązkowy, czyli za pozytywne zaliczenie 1 punkt, za takie sobie zaliczenie 0 punktów, a za niezaliczenie -1 punkt
+[2] - do zdobycia maksymalnie 2 punkty (0, 1, 2)
+
+Skala ocen:
+===========
+dst:    zaliczone wszystkie obowiązkowe [*]
+dst+:   zaliczone wszystkie obowiązkowe [*] + 10% dodatkowych punktów
+db:     zaliczone wszystkie obowiązkowe [*] + 40% dodatkowych punktów
+db+:    zaliczone wszystkie obowiązkowe [*] + 70% dodatkowych punktów
+bdb:    zaliczone wszystkie obowiązkowe [*] + 90% dodatkowych punktów
