@@ -15,6 +15,7 @@
     b. zastosowanie odpowiednich bibliotek
     c. prawidłowe wykorzystanie obiektowości w JS
     d. pozytywne przejście przez jshint
+    e. przygotowanie testów jednostkowych do kodu JS
 
 4.  HTML5 API
     a. skorzystanie z wybranych API
