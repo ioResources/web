@@ -1,0 +1,30 @@
+1.  Budowa dokumentów HTML
+    a. prawidłowa struktura
+    b. zastosowanie znaczników semantycznych
+    c. stosowanie standardowych (polecanych) rozwiązań 
+    d. przejście przez walidator
+
+2.  CSS
+    a. prawidłowa struktura
+    b. zastosowanie reguł (np. kaskadowość)
+    c. wykorzystanie języka LESS lub Sass
+    d. przejście przez walidator
+    
+3.  JS
+    a. wykorzystanie języka JavaScript 
+    b. zastosowanie odpowiednich bibliotek
+    c. prawidłowe wykorzystanie obiektowości w JS
+    d. pozytywne przejście przez jshint
+
+4.  HTML5 API
+    a. skorzystanie z wybranych API
+
+5.  Automatyzacja
+    a. wykorzystanie narzędzia automatyzującego testowanie, walidowanie, budowanie (np. Grunt)
+
+6.  Inne
+    a. przygotowanie wersji produkcyjnej (na serwer)
+    b. zoptymalizowanie rozmiaru dokumentów
+    c. zoptymalizowanie liczby żądań
+    d. zoptymalizowanie czasu ładowania dokumentu (zwłaszcza dla mobilnych)
+    e. opracowanie wersji mobilnej i desktopowej (RWD, wykrywanie przeglądarek, osobna wersja mobilna)
